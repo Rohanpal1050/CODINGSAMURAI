@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html, body{
+    height: 98%;
+    width: 99%;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, #0b0b0b, #2a2828);
+}
+.text-center{
+    color: #ffffff;
+}
+.h1{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background:transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+.button{
+padding: 18px;
+margin: 4px 4px;
+border: 2px solid rgb(69, 66, 66);
+border-radius: 26px;
+width: 56px;
+background: rgb(34, 33, 33);
+    color: #ffffff;
+    font-size: 16px;
+    box-shadow: inset 1px 1px 12px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-weight: bolder;
+}
+.button:hover {
+    box-shadow: 0 0 8px rgb(200, 200, 200), 0 0 8px rgb(200, 200, 200), 0 0 8px rgb(200, 200, 200);
+ }
+.row{
+    margin: 6px 0;
+}
+.row input{
+    margin-bottom: 20px;
+    padding: 10px 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 260px;
+    text-align: right;
+}
+.equalbutton{
+    border: none;
+  background-color:orange;
+  box-shadow: 0 0 5px orange;
+    padding: 18px;
+margin: 0 4px;
+border: 2px solid rgb(84, 81, 81);
+border-radius: 26px;
+width: 56px;
+}
+.equalbutton:hover {
+    box-shadow: 0 0 10px orange, 0 0 10px orange, 0 0 10px orange;
+ }
+.operatorbutton{
+    font-weight: bolder;
+    color: #ffffff;
+    background: rgb(61, 63, 62);
+    padding: 18px;
+margin: 0 4px;
+border: 2px solid rgb(77, 73, 73);
+border-radius: 26px;
+width: 56px;
+}
+.operatorbutton:hover {
+    box-shadow: 0 0 8px rgb(200, 200, 200), 0 0 8px rgb(200, 200, 200), 0 0 8px rgb(200, 200, 200);
+ }
